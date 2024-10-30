@@ -1,0 +1,15 @@
+.csm_track_order_form .form-group input{
+	line-height: normal;
+	padding: 10px 10px;
+	border-radius: 3px;
+	border: 1px solid #dedede;
+	font-size: 13px;
+}
+.csm_track_record td,.csm_track_record th{
+    padding: 5px;
+    border: 1px solid #d4d1d1;	
+}
+.csm_track_record {
+    margin: 20px 0;
+    text-align: center;
+}

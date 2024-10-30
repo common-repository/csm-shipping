@@ -1,0 +1,71 @@
+.custom-preview-img {
+    width: 22px !important;
+    background-position: center;
+
+}
+.custom-preview-img:before{
+    background-image: url(../images/3.png);
+    
+    background-repeat: no-repeat;
+    
+    content: "" !important;
+
+}
+
+.custom-preview-img{margin-left:8px;}
+
+/*.services_value {
+    position: absolute;
+    right: 34%;
+    top: 50%;
+}
+*/
+
+.woocommerce-order-data .wc-order-csm-shipping{ display: none; }
+#dwnldLnk {
+    padding: 10px 20px;
+    background-color: #2a85bb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#overlay {
+        background: #ffffff;
+        color: #666666;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: 5000;
+        top: 0;
+        left: 0;
+        float: left;
+        text-align: center;
+        padding-top: 25%;
+        margin:0 auto;
+    }
+div#progress {
+    width: 60%;
+    margin: 0 auto;
+    left: 26%;
+    position: absolute;
+}
+
+div#progress .ui-widget-header{ background:#2172ab;}
+.hide_field{display: none;}
+
+select#delivery_service {
+    margin-bottom: 10px;
+}
+.hide_invoice_btn{
+    display:none;
+}
+.print_custom_width {
+    width:350px;
+}
+
+.print_custom_width a {
+    border-radius:0;
+    border-radius: 0px !important;
+}
